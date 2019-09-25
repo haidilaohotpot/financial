@@ -6,11 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="financial" />
+        <module name="api" />
+        <module name="entity" />
+        <module name="manager" />
+        <module name="quartz" />
+        <module name="seller" />
+        <module name="swagger" />
+        <module name="util" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api" target="1.8" />
+      <module name="entity" target="1.8" />
       <module name="financial" target="1.8" />
+      <module name="manager" target="1.8" />
+      <module name="quartz" target="1.8" />
+      <module name="saller" target="1.8" />
+      <module name="seller" target="1.8" />
+      <module name="swagger" target="1.8" />
+      <module name="util" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

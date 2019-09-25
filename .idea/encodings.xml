@@ -2,6 +2,14 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quartz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/saller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/util" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
