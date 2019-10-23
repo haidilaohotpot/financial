@@ -2,6 +2,7 @@ package cn.edu.mju.manager;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @author <a href="https://github.com/haidilaohotpot">cheng</a>
@@ -9,6 +10,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
  */
 
 @SpringBootApplication(scanBasePackages = "cn.edu.mju")
+@EnableEurekaClient
 public class ManagerBootstrap {
 
 

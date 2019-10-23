@@ -1,0 +1,21 @@
+
+
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  application:
+    name: seller
+server:
+  servlet:
+    context-path: /seller
+  port: 8083
+logging:
+  level:
+    cn.edu.mju.seller: debug
+
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone:  http://localhost:8761/eureka/

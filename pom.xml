@@ -5,13 +5,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>util</module>
-        <module>api</module>
         <module>entity</module>
         <module>manager</module>
         <module>quartz</module>
-        <module>seller</module>
         <module>swagger</module>
-        <module>seller</module>
         <module>config</module>
     </modules>
     <parent>
@@ -36,6 +33,9 @@
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
+
+
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -47,7 +47,11 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.1.0</version>
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-boot-starter -->
         <dependency>
@@ -74,11 +78,7 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-boot-starter -->
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.1.0</version>
-        </dependency>
+
 
     </dependencies>
 
